@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
@@ -42,24 +42,26 @@ body {
 }
 
 .buttons {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #999;
+    /* border-bottom: 1px solid #999; */
+    /* border-left: 1px solid #999; */
     grid-template-columns: repeat(4, 100px);
 }
 
 .button {
-    border: 0.5px solid #999;
+    border: 1px solid rgba(57, 57, 57, 0.5);
     line-height: 60px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    /* border-radius: 35rem; */
 }
 
 #equal {
     background-color: #00AAFF;
-    color: whitesmoke;
+    color: white;
     font-weight: bold;
 }
 
